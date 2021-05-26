@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-25T03:06:58 IST" name="Default suite" finished-at="2021-05-25T03:07:19 IST" duration-ms="21011">
+    <groups>
+    </groups>
+    <test started-at="2021-05-25T03:06:58 IST" name="Default test" finished-at="2021-05-25T03:07:19 IST" duration-ms="21011">
+      <class name="scripts.TakeCourse">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:scripts.TakeCourse@50ad3bc1]" started-at="2021-05-25T03:06:58 IST" name="openApp" finished-at="2021-05-25T03:07:01 IST" duration-ms="2502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="takecourse()[pri:0, instance:scripts.TakeCourse@50ad3bc1]" started-at="2021-05-25T03:07:01 IST" name="takecourse" finished-at="2021-05-25T03:07:19 IST" duration-ms="17771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takecourse -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:scripts.TakeCourse@50ad3bc1]" started-at="2021-05-25T03:07:19 IST" name="closeApp" finished-at="2021-05-25T03:07:19 IST" duration-ms="695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=takecourse status=SUCCESS method=TakeCourse.takecourse()[pri:0, instance:scripts.TakeCourse@50ad3bc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- scripts.TakeCourse -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
